@@ -1,7 +1,7 @@
 import NavigationBar from './container/NavigationBar.tsx';
 import PersonalInfo from './container/AboutMe.tsx';
-import {Route, Routes} from 'react-router-dom';
-import Footer from './container/Footer.tsx';
+import {Route, Routes} from 'react-router-dom';;
+import Contacts from './container/Contacts.tsx';
 
 function App() {
 
@@ -10,19 +10,18 @@ function App() {
       <header>
         <NavigationBar />
       </header>
-      <main className='container-fluid'>
+      <main>
         <Routes>
           <Route path='/' element={(
             <PersonalInfo />
           )}/>
-          <Route/>
-          <Route/>
-          <Route/>
+          <Route path='contacts' element={(
+            <Contacts />
+          )}/>
+          <Route />
+          <Route />
         </Routes>
       </main>
-      <footer>
-        <Footer />
-      </footer>
     </>
   );
 }
