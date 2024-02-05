@@ -8,7 +8,10 @@ const NavigationBar: React.FC = () => {
         <span className="navbar-brand "> <h1 className='display-3'>Beksultan Chomoev</h1></span>
         <ul className="navbar-nav mr-auto">
           <li className="nav-link">
-            <NavLink to="/" className="nav-link">About me</NavLink>
+            <NavLink to="/" className="nav-link">Home</NavLink>
+          </li>
+          <li className="nav-link">
+            <NavLink to="about-me" className="nav-link">About me</NavLink>
           </li>
           <li className="nav-link">
             <NavLink to="contacts" className="nav-link">Contacts</NavLink>
