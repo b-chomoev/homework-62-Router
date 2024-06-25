@@ -1,5 +1,5 @@
 import React from 'react';
-import Footer from './Footer.tsx';
+import Footer from '../Resume/Resume.tsx';
 
 const Resume: React.FC = () => {
   return (

@@ -1,9 +1,9 @@
-import NavigationBar from './container/NavigationBar.tsx';
-import PersonalInfo from './container/AboutMe.tsx';
 import {Route, Routes} from 'react-router-dom';
-import Contacts from './container/Contacts.tsx';
-import Resume from './container/Resume.tsx';
-import Home from './container/Home.tsx'
+import NavigationBar from './components/NavigationBar/NavigationBar.tsx';
+import PersonalInfo from './components/AboutMe/AboutMe.tsx';
+import Contacts from './components/Contacts/Contacts.tsx';
+import Resume from './components/Resume/Resume.tsx';
+import Home from './components/Home/Home.tsx';
 
 function App() {
 

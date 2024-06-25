@@ -1,6 +1,6 @@
 import React from 'react';
-import myPicture from '../assets/myPicture.jpg';
-import Footer from './Footer.tsx';
+import myPicture from '../../assets/myPicture.jpg';
+import Footer from '../Footer/Footer.tsx';
 
 const AboutMe: React.FC = () => {
   return (
